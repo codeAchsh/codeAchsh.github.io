@@ -28,6 +28,17 @@ h1 {
   color: #d9534f;
   font-weight: 600;
 }
+.version{
+  width: 200px;
+  margin-top: 2em;
+  font-size: 15px;
+  background-color: bisque;
+  color: yellowgreen;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  border: #d3d3d3 solid 1px;
+}
 ul{
   margin-top: 3em;
   margin-left: 15%;
