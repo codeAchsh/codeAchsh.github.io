@@ -1,0 +1,147 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: auto;
+  font-family: sans-serif;
+  line-height: 1.6;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+h1 {
+  text-align: center;
+  margin-top: 2em;
+  color: #333;
+}
+.about{
+  background-color: rgb(253, 245, 235);
+  margin-top: 3em;
+  text-align: center;
+}
+.click{
+  width: 80%;    margin-top: 3em;
+  text-align: center;
+  color: #d9534f;
+  font-weight: 600;
+}
+ul{
+  margin-top: 3em;
+  margin-left: 15%;
+}
+li{
+  margin-top: 2em;
+}
+a {
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+a:hover {
+  text-decoration: underline;
+  word-wrap: break-word;
+  color: rgb(218, 138, 150);
+}
+p{
+  margin-left: 5em;
+}
+
+/* SKILLS/TOOLS/SNS */
+.detail{    
+  width: 100%;
+  height: auto;
+  margin-top: 6em;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap: 5em;
+  line-height: 1em;
+}
+.detail h2{
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+.detail ul{
+  width: 100%;
+  height: 250px;
+  background-color: rgb(240, 247, 255);
+  margin: 0;
+  list-style-position: inside;
+  border: #d3d3d3 solid 2px;
+}
+
+.detail ul li {
+  margin-left: 1em;
+}
+
+h2{
+  text-align: left;
+  margin-top: 5em;
+  color: #333;
+}
+/* CONTACT */
+.contact-me{
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6;
+}
+.contact-me h3{
+  margin-bottom: -1em;
+}
+.contact{
+  width: 80%;
+  /* height: 6%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2em 1em auto 1em;
+  font-size: 16px;
+  background-color: rgb(252, 252, 238);
+  border: #d3d3d3 solid 2px;  
+}
+.contact p{
+  padding: 1em auto;
+}
+body {
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+
+@media (max-width: 768px) {
+  .detail {
+    grid-template-columns: 1fr;
+    gap: 2em;
+  }
+  h1 {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.about, .click {
+    padding-left: 0;
+    padding-right: 0;
+}
+  ul {
+    margin-left: 0;
+  }
+
+  p {
+    margin-left: 0;
+  }
+}
+.contact-me{
+  margin-top: 6em;
+}
