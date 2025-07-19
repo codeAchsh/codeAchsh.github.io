@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 *{
   box-sizing: border-box;
   margin: 0;
@@ -7,26 +8,38 @@ body {
   width: 100%;
   height: auto;
   font-family: sans-serif;
+
   line-height: 1.6;
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
 }
 h1 {
-  text-align: center;
-  margin-top: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
   color: #333;
 }
+h1 img{
+  width: 50px;
+  height: auto;
+  border-radius: 50%;
+}
 .about{
+  font-family: "PT Serif", serif;
   background-color: rgb(253, 245, 235);
-  margin-top: 3em;
+  margin: 3em auto;
   text-align: center;
 }
 .click{
-  width: 80%;    margin-top: 3em;
+  width: 80%;    
+  margin-top: 3em;
   text-align: center;
-  color: #d9534f;
+  color: blue;
   font-weight: 600;
+  font-family: "roboto";
 }
 .version{
   width: 200px;
@@ -35,31 +48,59 @@ h1 {
   background-color: bisque;
   color: yellowgreen;
   display: block;
-  margin: 0 auto;
+  margin: 2em auto;
   text-align: center;
   border: #d3d3d3 solid 1px;
 }
 ul{
+  max-width: 900px;
   margin-top: 3em;
-  margin-left: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
 }
 li{
-  margin-top: 2em;
+  width: 100%;
+  margin: 2em auto;
+  padding: 0;
+  list-style: none;
 }
 a {
-  color: #0077cc;
+  color: #d9534f;
   text-decoration: none;
   font-size: 20px;
   cursor: pointer;
+  text-decoration: underline;
 }
 a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
   word-wrap: break-word;
   color: rgb(218, 138, 150);
 }
 p{
   margin-left: 5em;
+  font-family: "PT Serif", serif;
 }
+li .note-card{
+  width: 100%;
+  padding: 1.5em;
+  font-family: "PT Serif", serif;
+  background-color: rgb(240, 247, 255);
+  margin: 3em auto;
+  text-align: left !important;
+}
+.note-card h2{
+  margin-top: 0;
+}
+.note-card .article,
+.note-card .skill,
+.note-card .note,
+.note-card .site{
+  margin-top: 1rem;
+  text-align: left !important;
+  display: block;
+}
+
 
 /* SKILLS/TOOLS/SNS */
 .detail{    
@@ -78,7 +119,7 @@ p{
 .detail ul{
   width: 100%;
   height: 250px;
-  background-color: rgb(240, 247, 255);
+  background-color: rgb(242, 255, 244);
   margin: 0;
   list-style-position: inside;
   border: #d3d3d3 solid 2px;
@@ -106,7 +147,6 @@ h2{
 }
 .contact{
   width: 80%;
-  /* height: 6%; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,8 +155,9 @@ h2{
   background-color: rgb(252, 252, 238);
   border: #d3d3d3 solid 2px;  
 }
-.contact p{
-  padding: 1em auto;
+.contact p {
+  width: fit-content;
+  margin: .5em auto;
 }
 body {
   animation: fadeIn 1s ease-in-out;
