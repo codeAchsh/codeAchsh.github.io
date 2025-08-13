@@ -41,6 +41,42 @@ h1 img{
   font-weight: 600;
   font-family: "roboto";
 }
+.mypage-section {
+  margin: 6em auto;
+  padding: 3em 2em;
+  background-color: #f9f9f9;
+  border-top: 2px dashed #ccc;
+  border-bottom: 2px dashed #ccc;
+  border-radius: 8px;
+  max-width: 800px;
+}
+
+.mypage-intro {
+  font-family: "PT Serif", serif;
+  text-align: center;
+  line-height: 1.8;
+  color: #444;
+}
+
+.mypage-button {
+  display: inline-block;
+  margin-top: 2em;
+  padding: 0.6em 1.2em;
+  font-size: 16px;
+  font-family: "PT Serif", serif;
+  background-color: #e6e6f2;
+  color: #5a5a7a;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.mypage-button:hover {
+  background-color: #dcdcf0;
+  color: #3f3f5f;
+}
+
 .version{
   width: 200px;
   margin-top: 2em;
