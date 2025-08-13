@@ -33,8 +33,7 @@ h1 img{
   margin: 3em auto;
   text-align: center;
 }
-.click{
-  width: 80%;    
+.click{  
   margin-top: 3em;
   text-align: center;
   color: blue;
@@ -234,3 +233,4 @@ body {
 .contact-me{
   margin-top: 6em;
 }
+
